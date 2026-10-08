@@ -1,0 +1,20 @@
+{
+  "name": "campus-event-hub",
+  "version": "1.0.0",
+  "description": "A beginner-friendly Express server for a campus events website",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "campus-events"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

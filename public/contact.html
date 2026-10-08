@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Campus Event Hub with an event idea or a question.">
+  <title>Contact | Campus Event Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="brand" href="/" aria-label="Campus Event Hub home"><span class="brand-mark">CE</span><span>campus<span class="brand-light">event hub</span></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation"><a class="nav-link" href="/">Home</a><a class="nav-link" href="/events">Events</a><a class="nav-link" href="/about">About</a><a class="nav-link active" href="/contact" aria-current="page">Contact</a><a class="nav-cta" href="/events">Explore events <span aria-hidden="true">&#8599;</span></a></nav>
+  </div></header>
+  <main id="main">
+    <section class="contact-layout page-wrap"><div class="contact-copy"><p class="eyebrow">Tell us what's on your mind</p><h1>Good ideas<br>start with<br><span>a hello.</span></h1><p>Have an event to share, a question, or a thought about the Hub? Send a note and help campus life feel a little more connected.</p><div class="contact-aside"><span class="aside-mark" aria-hidden="true">&#8599;</span><div><strong>Student-led, always</strong><span>Every suggestion helps shape the calendar.</span></div></div></div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-heading"><span>01 / 01</span><h2>Write us a note</h2></div>
+        <label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="e.g. Alex Rivera" required>
+        <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@campus.edu" required>
+        <label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="Event idea, question, or hello" required>
+        <label for="message">Your message</label><textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+        <button class="button button-dark form-submit" type="submit">Send your note <span aria-hidden="true">&#8594;</span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        <p class="form-note">This lab demo confirms your message in the browser. It does not store or send personal information.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="page-wrap footer-inner"><a class="brand footer-brand" href="/"><span class="brand-mark">CE</span><span>campus<span class="brand-light">event hub</span></span></a><p>Good things happen between classes.</p><span class="footer-copy">&copy; <span data-current-year></span> Campus Event Hub</span></div></footer>
+</body>
+</html>
